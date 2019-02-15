@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="date_header_color">#FF943D</color>
+
+    <color name="pending_text_color">#696969</color>
+    <color name="pending_red_color">#dc4f42</color>
+</resources>

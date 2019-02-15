@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/item_number"
+        android:layout_width="16dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/text_margin"
+        android:background="@drawable/pending_circle"
+        android:layout_height="16dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/text_margin"
+        android:layout_marginBottom="@dimen/text_margin"
+        android:layout_marginLeft="12dp"
+        android:gravity="left"
+        android:text="@string/pending"
+        android:textColor="@color/pending_text_color"
+        style="@style/TextAppearance.AppCompat.Medium"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:layout_alignParentRight="true"
+            android:textStyle="bold"
+            android:layout_centerVertical="true"
+            android:text="@string/pending_trans"
+            android:textColor="@color/pending_red_color"
+            style="@style/TextAppearance.AppCompat.Small"/>
+
+    </RelativeLayout>
+</LinearLayout>
